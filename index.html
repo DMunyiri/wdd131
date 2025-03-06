@@ -3,29 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>WDD 131 – Dynamic Web Fundamentals - Student Name</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals course by Dominic Munyiri Wanjau. Learn about web development, Kenya's landscape, and the integration of technology in business.">
+    <meta name="author" content="Dominic Munyiri Wanjau">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js"></script>
 </head>
 <body>
     <header>
-        <h1>Website Title</h1>
+        <h1>WDD 131 – Dynamic Web Fundamentals - Student Name</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="https://www.linkedin.com/in/dominic-munyiri">LinkedIn</a></li>
+                <li><a href="https://github.com/dominic-munyiri">GitHub</a></li>
+                <li><a href="https://twitter.com/dominic-munyiri">Twitter</a></li>
+                <li><a href="https://www.facebook.com/dominic-munyiri">Facebook</a></li>
+                <li><a href="https://www.instagram.com/dominic-munyiri">Instagram</a></li>
+                <li><a href="https://www.dominic-munyiri.com">Personal Website</a></li>
+                <li><a href="https://www.medium.com/@dominic-munyiri">Medium</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section>
-            <h2>Section Title</h2>
-            <p>This is a section of the main content.</p>
+        <section class="card">
+            <h1>About Me</h1>
+            <img src="../images/dominic.jpg" alt="About Me">
+            <p>My name is Dominic Munyiri Wanjau. I am from Kenya. My interest is in business value addition through technology.</p>
+        </section>
+
+        <section class="card">
+            <h1>Kenya's Landscape</h1>
+            <img src="../images/maasai-mara.jpg" alt="Maasai Mara landscape">
+            <p>Kenya, often referred to as the "Cradle of Humanity" due to its rich archaeological history, is a country of breathtaking landscapes, vibrant cultures, and remarkable wildlife. Located in East Africa, it is renowned for its stunning natural reserves like the Maasai Mara, Amboseli, and Tsavo, which are home to the "Big Five" and host the iconic Great Migration. Beyond its natural beauty, Kenya has emerged as a hub for innovation, particularly in mobile technology, with the advent of M-Pesa transforming financial transactions across Africa.</p>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        <p>&copy; <span id="currentyear"></span> Dominic Munyiri Wanjau | Kenya</p>
+        <p id="lastModified"></p>
     </footer>
 </body>
 </html>
